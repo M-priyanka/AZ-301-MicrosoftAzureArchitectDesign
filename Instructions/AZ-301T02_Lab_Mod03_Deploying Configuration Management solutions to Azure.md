@@ -189,24 +189,6 @@
     }
     ```
 
-1. At the **Cloud Shell** command prompt, type in the following command and press **Enter** to create a variable which value designates the name of the resource group that will contain the hub virtual network:
-
-    ```sh
-    RESOURCE_GROUP='AADesignLab1202-RG'
-    ```
-
-1. At the **Cloud Shell** command prompt, type in the following command and press **Enter** to create a variable which value designates the Azure region you will use for the deployment (replace the placeholder `<Azure region>` with the name of the Azure region to which you intend to deploy resources in this lab):
-
-    ```sh
-    LOCATION='<Azure region>'
-    ```
-
-1. At the **Cloud Shell** command prompt, type in the following command and press **Enter** to create a new resource group:
-
-    ```sh
-    az group create --name $RESOURCE_GROUP --location $LOCATION
-    ```
-
 1. At the **Cloud Shell** command prompt, type in the following command and press **Enter** to deploy the Azure Resource Manager template with the specified parameters file:
 
     ```sh
